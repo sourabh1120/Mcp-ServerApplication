@@ -167,7 +167,7 @@ neosoft@neosoft-Latitude-5420:~/.config/Claude$ python3 -m json.tool ~/.config/C
     }
 }
 
-   run the jar file 
+ run the jar file 
 neosoft@neosoft-Latitude-5420:~/.config/Claude$ java -jar /home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar
 2025-08-14T17:45:51.741+05:30  INFO 69191 --- [mcpApplication] [           main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 69191 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/.config/Claude)
 2025-08-14T17:45:51.743+05:30  INFO 69191 --- [mcpApplication] [           main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
