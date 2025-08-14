@@ -1,0 +1,185 @@
+# IPL 2025 Schedule Service
+
+This is a Spring Boot application that provides an IPL 2025 schedule service. It offers various endpoints to retrieve information about IPL matches, including filtering by team, date, venue, and match number. The schedule is preloaded with match data for the IPL 2025 season.
+
+## Features
+
+- Preloaded IPL 2025 match data.
+- Endpoints to retrieve matches by:
+    - Team (home/away)
+    - Date
+    - Date range
+    - Venue
+    - Match number
+- Methods to fetch all matches or filtered matches based on criteria.
+
+## Tech Stack
+
+- **Java**: 17+
+- **Spring Boot**: 2.x or higher
+- **Spring Web**: For creating RESTful web services
+- **Spring Dependency Injection**: For managing the services
+- **Java 8 Streams**: For filtering and processing match data
+- **JPA (optional)**: If you need persistence or database support (not included by default)
+- **Lombok**: For reducing boilerplate code (optional)
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+https://github.com/sourabh1120/McpServerRepository.git
+
+ Build the Project
+mvn clean install
+
+```API Endpoints
+
+The service exposes the following endpoints:
+
+1. Get All Matches
+
+Retrieve all IPL 2025 matches.
+
+GET /api/ipl/schedule/matches
+
+2. Get Matches by Team
+
+Retrieve all matches where a specific team is playing (either home or away).
+
+GET /api/ipl/schedule/team/{teamName}
+
+Example:
+
+GET /api/ipl/schedule/team/Kolkata Knight Riders
+
+3. Get Matches by Date
+
+Retrieve all matches on a specific date.
+
+GET /api/ipl/schedule/date/{date}
+
+Example:
+
+GET /api/ipl/schedule/date/2025-03-22
+
+4. Get Matches by Date Range
+
+Retrieve all matches between a specified date range.
+
+GET /api/ipl/schedule/dates/{startDate}/{endDate}
+
+Example:
+
+GET /api/ipl/schedule/dates/2025-03-22/2025-04-01
+
+5. Get Matches by Venue
+
+Retrieve all matches held at a specific venue.
+
+GET /api/ipl/schedule/venue/{venue}
+
+Example:
+
+GET /api/ipl/schedule/venue/Kolkata
+
+6. Get Match by Match Number
+
+Retrieve a specific match by its unique match number.
+
+GET /api/ipl/schedule/match/{matchNumber}
+
+Example:
+
+GET /api/ipl/schedule/match/1
+
+Configuration
+
+You can customize the IPL schedule data or add more logic as per your requirements.
+
+Modify the ScheduleService class to update match data or add new functionality.
+
+The data is currently hardcoded in the loadIPLSchedule() method.
+
+
+
+
+Commands I am using to connect with mcp server
+===============================================
+
+neosoft@neosoft-Latitude-5420:~$ mkdir -p ~/Library/Application\ Support/Claude/
+
+neosoft@neosoft-Latitude-5420:~$ ls
+
+neosoft@neosoft-Latitude-5420:~$ cd ~/Library/Application\ Support/Claude/
+
+
+neosoft@neosoft-Latitude-5420:~/Library/Application Support/Claude$ touch ~/.config/Claude/claude_desktop_config.json
+
+
+neosoft@neosoft-Latitude-5420:~/Library/Application Support/Claude$ nano ~/.config/Claude/claude_desktop_config.json
+
+neosoft@neosoft-Latitude-5420:~/Library/Application Support/Claude$ nano ~/.config/Claude/claude_desktop_config.json
+
+neosoft@neosoft-Latitude-5420:~/Library/Application Support/Claude$ cd ~/.config/Claude
+
+neosoft@neosoft-Latitude-5420:~/.config/Claude$ ls
+ blob_storage                 Cookies             Dictionaries                IndexedDB                   sentry               SharedStorage-wal  'Trust Tokens'
+ Cache                        Cookies-journal     DIPS                       'Local Storage'             'Service Worker'      SingletonCookie    'Trust Tokens-journal'
+ claude_desktop_config.json   Crashpad            DIPS-wal                    logs                       'Session Storage'     SingletonLock       WebStorage
+'Code Cache'                  DawnGraphiteCache   extensions-blocklist.json  'Network Persistent State'  'Shared Dictionary'   SingletonSocket     window-state.json
+ config.json                  DawnWebGPUCache     GPUCache                    Preferences                 SharedStorage        TransportSecurity
+ 
+ 
+ 
+ => creating a json file give a path to spring boot application
+neosoft@neosoft-Latitude-5420:~/.config/Claude$ nano claude_desktop_config.json
+{
+    "mcpServers": {
+        "mcpApplication": {
+            "command": "/home/neosoft/.sdkman/candidates/java/current/bin/java",
+            "args": [
+                "-jar",
+                "/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar"
+            ],
+            "env": {
+                "JAVA_HOME": "/home/neosoft/.sdkman/candidates/java/current"
+            }
+        }
+    }
+}
+
+
+===>match the file 
+neosoft@neosoft-Latitude-5420:~/.config/Claude$ python3 -m json.tool ~/.config/Claude/claude_desktop_config.json
+{
+    "mcpServers": {
+        "mcpApplication": {
+            "command": "/home/neosoft/.sdkman/candidates/java/current/bin/java",
+            "args": [
+                "-jar",
+                "/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar"
+            ],
+            "env": {
+                "JAVA_HOME": "/home/neosoft/.sdkman/candidates/java/current"
+            }
+        }
+    }
+}
+
+   ===>run the jar file 
+neosoft@neosoft-Latitude-5420:~/.config/Claude$ java -jar /home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar
+2025-08-14T17:45:51.741+05:30  INFO 69191 --- [mcpApplication] [           main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 69191 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/.config/Claude)
+2025-08-14T17:45:51.743+05:30  INFO 69191 --- [mcpApplication] [           main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T17:45:52.432+05:30  INFO 69191 --- [mcpApplication] [           main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-08-14T17:45:52.434+05:30  INFO 69191 --- [mcpApplication] [           main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-08-14T17:45:52.435+05:30  INFO 69191 --- [mcpApplication] [           main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-08-14T17:45:52.436+05:30  INFO 69191 --- [mcpApplication] [           main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-08-14T17:45:52.563+05:30  INFO 69191 --- [mcpApplication] [           main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.336 seconds (process running for 1.771)
+
+
+use for kisll the porcess
+neosoft@neosoft-Latitude-5420:~/.config/Claude$ pkill -f claude
+
+
+
