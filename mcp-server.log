@@ -1,70 +1,56 @@
-2025-08-14T11:10:26.823+05:30  INFO 46703 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication using Java 21.0.7 with PID 46703 (/home/neosoft/Desktop/McpServer/mcpApplication/target/classes started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T11:10:26.831+05:30  INFO 46703 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T11:10:27.479+05:30  INFO 46703 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T11:10:27.481+05:30  INFO 46703 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T11:10:27.481+05:30  INFO 46703 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T11:10:27.482+05:30  INFO 46703 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T11:10:27.584+05:30  INFO 46703 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.23 seconds (process running for 1.581)
-2025-08-14T11:10:48.282+05:30  INFO 46792 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication using Java 21.0.7 with PID 46792 (/home/neosoft/Desktop/McpServer/mcpApplication/target/classes started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T11:10:48.284+05:30  INFO 46792 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T11:10:48.872+05:30  INFO 46792 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T11:10:48.873+05:30  INFO 46792 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T11:10:48.874+05:30  INFO 46792 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T11:10:48.874+05:30  INFO 46792 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T11:10:48.963+05:30  INFO 46792 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.162 seconds (process running for 1.486)
-2025-08-14T11:11:35.100+05:30  INFO 47045 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication using Java 21.0.7 with PID 47045 (/home/neosoft/Desktop/McpServer/mcpApplication/target/classes started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T11:11:35.102+05:30  INFO 47045 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T11:11:35.747+05:30  INFO 47045 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T11:11:35.749+05:30  INFO 47045 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T11:11:35.750+05:30  INFO 47045 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T11:11:35.751+05:30  INFO 47045 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T11:11:35.837+05:30  INFO 47045 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.245 seconds (process running for 1.608)
-2025-08-14T11:15:01.617+05:30  INFO 47412 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication using Java 21.0.7 with PID 47412 (/home/neosoft/Desktop/McpServer/mcpApplication/target/classes started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T11:15:01.619+05:30  INFO 47412 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T11:15:02.233+05:30  INFO 47412 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T11:15:02.235+05:30  INFO 47412 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T11:15:02.235+05:30  INFO 47412 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T11:15:02.236+05:30  INFO 47412 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T11:15:02.336+05:30  INFO 47412 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.204 seconds (process running for 1.555)
-2025-08-14T11:16:19.181+05:30  INFO 47538 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication using Java 21.0.7 with PID 47538 (/home/neosoft/Desktop/McpServer/mcpApplication/target/classes started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T11:16:19.183+05:30  INFO 47538 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T11:16:19.894+05:30  INFO 47538 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T11:16:19.896+05:30  INFO 47538 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T11:16:19.897+05:30  INFO 47538 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T11:16:19.897+05:30  INFO 47538 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T11:16:20.008+05:30  INFO 47538 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.335 seconds (process running for 1.648)
-2025-08-14T11:16:39.779+05:30  INFO 47650 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication using Java 21.0.7 with PID 47650 (/home/neosoft/Desktop/McpServer/mcpApplication/target/classes started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T11:16:39.782+05:30  INFO 47650 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T11:16:40.405+05:30  INFO 47650 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T11:16:40.407+05:30  INFO 47650 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T11:16:40.408+05:30  INFO 47650 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T11:16:40.408+05:30  INFO 47650 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T11:16:40.496+05:30  INFO 47650 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.226 seconds (process running for 1.57)
-2025-08-14T13:16:06.726+05:30  INFO 54415 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 54415 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T13:16:06.728+05:30  INFO 54415 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T13:16:07.382+05:30  INFO 54415 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T13:16:07.384+05:30  INFO 54415 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T13:16:07.385+05:30  INFO 54415 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T13:16:07.386+05:30  INFO 54415 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T13:16:07.507+05:30  INFO 54415 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.309 seconds (process running for 1.748)
-2025-08-14T13:21:43.433+05:30  INFO 54582 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 54582 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T13:21:43.435+05:30  INFO 54582 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T13:21:44.061+05:30  INFO 54582 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T13:21:44.063+05:30  INFO 54582 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T13:21:44.063+05:30  INFO 54582 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T13:21:44.064+05:30  INFO 54582 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T13:21:44.154+05:30  INFO 54582 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.169 seconds (process running for 1.621)
-2025-08-14T13:31:37.731+05:30  INFO 55097 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 55097 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T13:31:37.734+05:30  INFO 55097 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T13:31:38.374+05:30  INFO 55097 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T13:31:38.376+05:30  INFO 55097 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T13:31:38.377+05:30  INFO 55097 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T13:31:38.378+05:30  INFO 55097 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T13:31:38.468+05:30  INFO 55097 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.185 seconds (process running for 1.62)
-2025-08-14T13:49:49.285+05:30  INFO 56641 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication using Java 21.0.7 with PID 56641 (/home/neosoft/Desktop/McpServer/mcpApplication/target/classes started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
-2025-08-14T13:49:49.287+05:30  INFO 56641 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T13:49:50.012+05:30  INFO 56641 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T13:49:50.013+05:30  INFO 56641 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T13:49:50.014+05:30  INFO 56641 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T13:49:50.015+05:30  INFO 56641 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T13:49:50.114+05:30  INFO 56641 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.312 seconds (process running for 1.663)
+2025-08-18T10:17:32.377+05:30  INFO 85752 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 85752 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
+2025-08-18T10:17:32.379+05:30  INFO 85752 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T10:17:33.015+05:30  INFO 85752 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-08-18T10:17:33.017+05:30  INFO 85752 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-08-18T10:17:33.017+05:30  INFO 85752 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-08-18T10:17:33.018+05:30  INFO 85752 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-08-18T10:17:33.109+05:30  INFO 85752 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.256 seconds (process running for 1.685)
+2025-08-18T10:20:51.471+05:30  INFO 86222 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 86222 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
+2025-08-18T10:20:51.474+05:30  INFO 86222 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T10:20:52.070+05:30  INFO 86222 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-08-18T10:20:52.072+05:30  INFO 86222 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-08-18T10:20:52.073+05:30  INFO 86222 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-08-18T10:20:52.074+05:30  INFO 86222 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-08-18T10:20:52.170+05:30  INFO 86222 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.181 seconds (process running for 1.587)
+2025-08-18T10:26:32.400+05:30  INFO 86836 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 86836 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
+2025-08-18T10:26:32.402+05:30  INFO 86836 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T10:26:32.970+05:30  INFO 86836 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-08-18T10:26:32.971+05:30  INFO 86836 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-08-18T10:26:32.972+05:30  INFO 86836 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-08-18T10:26:32.973+05:30  INFO 86836 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-08-18T10:26:33.058+05:30  INFO 86836 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.111 seconds (process running for 1.545)
+2025-08-18T10:27:00.051+05:30  INFO 86898 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 86898 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
+2025-08-18T10:27:00.053+05:30  INFO 86898 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T10:27:00.654+05:30  INFO 86898 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-08-18T10:27:00.655+05:30  INFO 86898 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-08-18T10:27:00.656+05:30  INFO 86898 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-08-18T10:27:00.656+05:30  INFO 86898 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-08-18T10:27:00.740+05:30  INFO 86898 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.116 seconds (process running for 1.53)
+2025-08-18T10:29:40.076+05:30  INFO 87253 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 87253 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
+2025-08-18T10:29:40.078+05:30  INFO 87253 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T10:29:40.777+05:30  INFO 87253 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-08-18T10:29:40.779+05:30  INFO 87253 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-08-18T10:29:40.780+05:30  INFO 87253 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-08-18T10:29:40.781+05:30  INFO 87253 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-08-18T10:29:40.893+05:30  INFO 87253 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.292 seconds (process running for 1.772)
+2025-08-18T10:29:44.274+05:30  INFO 87312 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 87312 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
+2025-08-18T10:29:44.275+05:30  INFO 87312 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T10:29:44.948+05:30  INFO 87312 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-08-18T10:29:44.950+05:30  INFO 87312 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-08-18T10:29:44.951+05:30  INFO 87312 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-08-18T10:29:44.951+05:30  INFO 87312 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-08-18T10:29:45.054+05:30  INFO 87312 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.283 seconds (process running for 1.708)
+2025-08-18T10:33:43.279+05:30  INFO 87649 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 87649 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
+2025-08-18T10:33:43.281+05:30  INFO 87649 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T10:33:43.925+05:30  INFO 87649 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-08-18T10:33:43.926+05:30  INFO 87649 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-08-18T10:33:43.927+05:30  INFO 87649 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-08-18T10:33:43.928+05:30  INFO 87649 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-08-18T10:33:44.014+05:30  INFO 87649 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.205 seconds (process running for 1.642)
+2025-08-18T10:56:16.044+05:30  INFO 90184 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 90184 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
+2025-08-18T10:56:16.046+05:30  INFO 90184 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T10:56:16.723+05:30  INFO 90184 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-08-18T10:56:16.725+05:30  INFO 90184 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-08-18T10:56:16.726+05:30  INFO 90184 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-08-18T10:56:16.727+05:30  INFO 90184 --- [mcpApplication] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-08-18T10:56:16.838+05:30  INFO 90184 --- [mcpApplication] [main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.322 seconds (process running for 1.728)

@@ -1,4 +1,5 @@
-/**package com.mcpServer.mcpApplication.controller;
+/**
+ * package com.mcpServer.mcpApplication.controller;
 
 import com.mcpServer.mcpApplication.model.Match;
 import com.mcpServer.mcpApplication.service.ScheduleService;
