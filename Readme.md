@@ -171,14 +171,16 @@ use for kisll the porcess
 neosoft@neosoft-Latitude-5420:~/.config/Claude$ pkill -f claude
 
 run the jar file 
-neosoft@neosoft-Latitude-5420:~/.config/Claude$ java -jar /home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar
-2025-08-14T17:45:51.741+05:30  INFO 69191 --- [mcpApplication] [           main] c.m.mcpApplication.McpApplication        : Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 69191 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/.config/Claude)
-2025-08-14T17:45:51.743+05:30  INFO 69191 --- [mcpApplication] [           main] c.m.mcpApplication.McpApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-08-14T17:45:52.432+05:30  INFO 69191 --- [mcpApplication] [           main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
-2025-08-14T17:45:52.434+05:30  INFO 69191 --- [mcpApplication] [           main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
-2025-08-14T17:45:52.435+05:30  INFO 69191 --- [mcpApplication] [           main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
-2025-08-14T17:45:52.436+05:30  INFO 69191 --- [mcpApplication] [           main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
-2025-08-14T17:45:52.563+05:30  INFO 69191 --- [mcpApplication] [           main] c.m.mcpApplication.McpApplication        : Started McpApplication in 1.336 seconds (process running for 1.771)
+neosoft@neosoft-Latitude-5420:~/Desktop/McpServer/mcpApplication$ java -jar target/mcpApplication-0.0.1-SNAPSHOT.jar
+2025-08-19 15:39:25 INFO  c.m.mcpApplication.McpApplication - Starting McpApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 16778 (/home/neosoft/Desktop/McpServer/mcpApplication/target/mcpApplication-0.0.1-SNAPSHOT.jar started by neosoft in /home/neosoft/Desktop/McpServer/mcpApplication)
+2025-08-19 15:39:25 INFO  c.m.mcpApplication.McpApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-19 15:39:25 INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable tools capabilities, notification: true
+2025-08-19 15:39:26 INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Registered tools: 6
+2025-08-19 15:39:26 INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable resources capabilities, notification: true
+2025-08-19 15:39:26 INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable prompts capabilities, notification: true
+2025-08-19 15:39:26 INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable completions capabilities
+2025-08-19 15:39:26 INFO  c.m.mcpApplication.McpApplication - Started McpApplication in 1.58 seconds (process running for 1.993)
+
 
 
 
