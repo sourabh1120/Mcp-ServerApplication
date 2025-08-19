@@ -5,6 +5,7 @@ import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 import java.io.BufferedReader;
@@ -16,10 +17,23 @@ import java.io.PrintWriter;
 public class McpApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(McpApplication.class, args);
+		try {
+			ConfigurableApplicationContext context = SpringApplication.run(McpApplication.class, args);
+
+			// Keep the application running
+			synchronized (McpApplication.class) {
+				McpApplication.class.wait();
+			}
+		} catch (Exception e) {
+			System.err.println("Application failed to start: " + e.getMessage());
+			e.printStackTrace();
+			System.exit(1);
+		}
+
+
 	}
 	@Bean
-	public ToolCallbackProvider weatherTools(ScheduleService scheduleService) {
+	public ToolCallbackProvider mcpTools(ScheduleService scheduleService) {
 		return MethodToolCallbackProvider.builder().toolObjects(scheduleService).build();
 	}
 
