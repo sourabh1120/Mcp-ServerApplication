@@ -1,5 +1,4 @@
-/**
- * package com.mcpServer.mcpApplication.controller;
+package com.mcpServer.mcpApplication.controller;
 
 import com.mcpServer.mcpApplication.model.Match;
 import com.mcpServer.mcpApplication.service.ScheduleService;
@@ -10,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api/ipl/schedule")
@@ -63,4 +63,17 @@ public class ScheduleController {
         List<Match> matches = scheduleService.getMatchesByVenue(venue);
         return ResponseEntity.ok(matches);
     }
-}*/
+
+    @PostMapping("/tools/list")
+    public ResponseEntity<?> listTools() {
+        List<String> tools = List.of(
+                "getAllMatches",
+                "getMatchByNumber",
+                "getMatchesByTeam",
+                "getMatchesByDate",
+                "getMatchesByVenue"
+        );
+        return ResponseEntity.ok(Map.of("tools", tools));
+    }
+
+}
