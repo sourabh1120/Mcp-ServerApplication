@@ -188,7 +188,7 @@ public class McpClientService {
     }
 
     /**
-     * Get the default MCP server URL
+      Get the default MCP server URL
      */
     public String getDefaultServerUrl() {
         return defaultMcpServerUrl;
